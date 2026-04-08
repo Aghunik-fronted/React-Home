@@ -182,3 +182,41 @@
     border-right-color: var(--border);
   }
 }
+.react-app {
+  background: rgb(252, 224, 187);
+  min-height: 100vh;
+}
+header {
+  border-bottom: 1px solid #ccc;
+  padding: 30px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 48px;
+  color: rgb(95, 92, 89);
+}
+ul {
+  padding: 40px;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 8px;
+  
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(141, 125, 125);
+  font-weight: 600;
+}
+.card {
+  padding: 50px 0 100px;
+}
+.footer {
+  border-top: 1px solid #ccc;
+  padding: 30px;
+}

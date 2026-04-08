@@ -4,7 +4,11 @@ function Footer({name, children}) {
   return (
     <footer className='footer'>
         <p>© 2026 {name}</p>
-        <div>{children}</div>
+        <nav className='footer-nav'>
+            <a href="#">Политика конфиденциальности</a> | 
+            <a href="#"> Помощь</a> | 
+            <a href="#"> Контакты</a>
+        </nav>
     </footer>
   );
 };

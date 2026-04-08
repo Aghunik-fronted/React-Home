@@ -219,4 +219,12 @@ a {
 .footer {
   border-top: 1px solid #ccc;
   padding: 30px;
+  justify-content: center;
+}
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 16px;
 }

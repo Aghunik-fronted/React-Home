@@ -14,14 +14,14 @@ function App() {
       <div className='react-app'>
           <Header name="Мой магазин">
             <ul>
-              <li><a href="#">Главная</a></li>
-              <li><a href="#">Каталог</a></li>
-              <li><a href="#">О нас</a></li>
+              <li><a href="#" className="text-[#8d7d7d] font-semibold no-underline hover:text-orange-400 transition-colors">Главная</a></li>
+              <li><a href="#" className="text-[#8d7d7d] font-semibold no-underline hover:text-orange-400 transition-colors">Каталог</a></li>
+              <li><a href="#" className="text-[#8d7d7d] font-semibold no-underline hover:text-orange-400 transition-colors">О нас</a></li>
             </ul>
           </Header>
           <Card items={products}/>
           <Footer name="React- Home Inc.">
-            <a href="#">Контакты</a>
+      
           </Footer>
       </div>
     </>

@@ -24,12 +24,10 @@ function Card({ items }) {
       {selectedItem && (
         <div 
           className="fixed inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center z-50 p-4"
-          onClick={() => setSelectedItem(null)} 
-        >
+          onClick={() => setSelectedItem(null)}>
           <div 
             className="bg-white p-6 rounded-2xl max-w-sm w-full shadow-2xl transform transition-all border-t-4 border-emerald-500"
-            onClick={(e) => e.stopPropagation()} 
-          >
+            onClick={(e) => e.stopPropagation()}>
             <div className="flex justify-between items-start mb-4">
                <h2 className="text-2xl font-bold text-gray-800">{selectedItem.name}</h2>
                <span className="bg-emerald-100 text-emerald-700 text-sm font-bold px-2 py-1 rounded">
@@ -51,8 +49,7 @@ function Card({ items }) {
 
             <button 
               onClick={() => setSelectedItem(null)} 
-              className="w-full bg-slate-800 text-white py-3 rounded-xl hover:bg-slate-900 font-medium transition-colors shadow-lg cursor-pointer"
-            >
+              className="w-full bg-slate-800 text-white py-3 rounded-xl hover:bg-slate-900 font-medium transition-colors shadow-lg cursor-pointer">
               Закрыть
             </button>
           </div>

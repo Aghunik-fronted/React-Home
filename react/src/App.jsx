@@ -5,10 +5,25 @@ import Footer from './components/Footer';
 
 function App() {
   const products = [
-    { name: 'Ноутбук', price: 50000 },
-    { name: 'Мышь', price: 1500 },
-    { name: 'Клавиатура', price: 3000 }
-  ];
+  { 
+    name: 'Ноутбук', 
+    price: 50000, 
+    desc: 'Мощный игровой ноутбук с отличным охлаждением.',
+    specs: 'RTX 3060, 16GB RAM, 512GB SSD'
+  },
+  { 
+    name: 'Мышь', 
+    price: 1500, 
+    desc: 'Беспроводная мышь для работы и игр.',
+    specs: '16000 DPI, 6 кнопок'
+  },
+  { 
+    name: 'Клавиатура', 
+    price: 3000, 
+    desc: 'Механическая клавиатура с RGB подсветкой.',
+    specs: 'Blue Switches, Anti-ghosting'
+  }
+];
   return (
     <>
       <div className='react-app'>
